@@ -1,5 +1,6 @@
 ﻿using OOP_05.Casting_Operators_Overloading;
 using OOP_05.Operator_Overloading;
+using System.Drawing;
 using System.Threading.Channels;
 
 namespace OOP_05
@@ -81,17 +82,18 @@ namespace OOP_05
 
             #endregion
 
+            #region Casting Operator Overloading - Mapping
             //// View EmployeeViewModel Employee [Model] ==> Database
             //// Database ==> Employee =>EmployeeViewModel==> View
 
-            Employee employee = new Employee()
-            {
-                Id = 10,
-                FullName = "Aliaa Tarek",
-                Password = "password",
-                Email = "AliaaTarek42@Gmail.com",
-                SecurityStamp = Guid.NewGuid()
-            };
+            //Employee employee = new Employee()
+            //{
+            //    Id = 10,
+            //    FullName = "Aliaa Tarek",
+            //    Password = "password",
+            //    Email = "AliaaTarek42@Gmail.com",
+            //    SecurityStamp = Guid.NewGuid()
+            //};
 
             ////EmployeeViewModel employeeViewModel = new EmployeeViewModel();
             ////employeeViewModel = (EmployeeViewModel)employee;
@@ -100,7 +102,21 @@ namespace OOP_05
             ////Console.WriteLine(employeeViewModel.LastName);
 
             //object obj = new EmployeeViewModel();
-            //EmployeeViewModel E = (EmployeeViewModel)obj;
+            //EmployeeViewModel E = (EmployeeViewModel)obj; 
+            #endregion
+
+            #region Abstraction
+
+
+            //Rectangle rectangle = new Rectangle() { Dim01 = 10, Dim02 = 20 };
+
+            //decimal RecArea = rectangle.CalcArea();
+            //Console.WriteLine($"Area Of rectangle = {RecArea}");
+
+            //Console.WriteLine($"Perimeter of rectangle = {rectangle.Perimeter}");
+            #endregion
+
+
 
 
 
