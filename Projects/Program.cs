@@ -1,4 +1,5 @@
-﻿using static Projects.FirstProject;
+﻿using static Assignment.Projects.FirstProject;
+using static Assignment.Projects.SecondProject;
 
 namespace Projects
 {
@@ -56,6 +57,19 @@ namespace Projects
             //{
             //    Console.WriteLine("Invalid input: " + ex.Message);
             //}
+
+            #endregion
+
+            #region Second Project Maths
+
+
+            //int a = 10;
+            //int b = 2;
+
+            //Console.WriteLine($"Add: {Maths.Add(a, b)}");
+            //Console.WriteLine($"Subtract: {Maths.Subtract(a, b)}");
+            //Console.WriteLine($"Multiply: {Maths.Multiply(a, b)}");
+            //Console.WriteLine($"Divide: {Maths.Divide(a, b)}");
 
             #endregion
 
