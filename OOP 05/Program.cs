@@ -1,5 +1,6 @@
 ﻿using OOP_05.Casting_Operators_Overloading;
 using OOP_05.Operator_Overloading;
+using OOP_05.Static;
 using System.Drawing;
 using System.Threading.Channels;
 
@@ -116,10 +117,24 @@ namespace OOP_05
             //Console.WriteLine($"Perimeter of rectangle = {rectangle.Perimeter}");
             #endregion
 
+            #region Static
+
+            //Utility U01 = new Utility(10, 20);
+            //Console.WriteLine($"Cm to Inch = {U01.CmToInch(254)}"); //100
 
 
+            //Utility U02 = new Utility(100, 200);
+            //Console.WriteLine($"Cm to Inch = {U02.CmToInch(254)}"); //100
+
+            //Console.WriteLine(U01.CalcCircleArea(10)); //314
+            //Console.WriteLine(U02.CalcCircleArea(10)); //314
 
 
+            //Console.WriteLine($"Area of Circle = {Utility.CalcCircleArea(10)}");
+            //Utility utility = new Utility();//INVALID
+
+
+            #endregion
 
 
 
