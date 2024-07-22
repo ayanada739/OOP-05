@@ -12,8 +12,8 @@ namespace OOP_05
             Complex C1 = new Complex() { Real = 3, Imag = 5 };
             Console.WriteLine($"C1 = { C1}"); //3+5i
 
-           // Complex C2 = new Complex() { Real = 2, Imag = 4 };   
-           // Console.WriteLine($"C2 = {C2}"); //2+4i
+            Complex C2 = new Complex() { Real = 2, Imag = 4 };   
+            Console.WriteLine($"C2 = {C2}"); //2+4i
 
             Complex C3 = default;
 
@@ -44,6 +44,15 @@ namespace OOP_05
             //Console.WriteLine("============");
             //Console.WriteLine($"C3 = {C3}");
             //Console.WriteLine($"C1 = {C1}"); // 3 + 5i
+
+            #endregion
+
+            #region Relational Operators Overloading
+
+            //if (C1 > C2)
+            //    Console.WriteLine("C1 Is Greater Than C2");
+            //else if (C2 > C1)
+            //    Console.WriteLine("C2 Is Greater Than C1") ;
 
             #endregion
             #endregion
