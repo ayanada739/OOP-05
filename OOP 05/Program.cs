@@ -1,5 +1,6 @@
-﻿using OOP_05.Casting_Operators_Overloading;
+﻿ 
 using OOP_05.Operator_Overloading;
+using OOP_05.Partial;
 using OOP_05.Static;
 using System.Drawing;
 using System.Threading.Channels;
@@ -136,7 +137,19 @@ namespace OOP_05
 
             #endregion
 
-            
+            #region Parial
+            Employee employee
+                 = new Employee();
+            employee.Id = 10;
+            employee.Name = "Aliaa";
+            employee.Age = 30;
+            employee.Salary = 50000;
+
+            employee.test = 10;
+            employee.print();
+
+            employee.Hamada();
+            #endregion
 
 
 
