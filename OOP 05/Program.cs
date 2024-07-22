@@ -1,4 +1,5 @@
-﻿using OOP_05.Operator_Overloading;
+﻿using OOP_05.Casting_Operators_Overloading;
+using OOP_05.Operator_Overloading;
 using System.Threading.Channels;
 
 namespace OOP_05
@@ -79,6 +80,35 @@ namespace OOP_05
 
 
             #endregion
+
+            //// View EmployeeViewModel Employee [Model] ==> Database
+            //// Database ==> Employee =>EmployeeViewModel==> View
+
+            Employee employee = new Employee()
+            {
+                Id = 10,
+                FullName = "Aliaa Tarek",
+                Password = "password",
+                Email = "AliaaTarek42@Gmail.com",
+                SecurityStamp = Guid.NewGuid()
+            };
+
+            ////EmployeeViewModel employeeViewModel = new EmployeeViewModel();
+            ////employeeViewModel = (EmployeeViewModel)employee;
+
+            ////Console.WriteLine(employeeViewModel.FirstName);
+            ////Console.WriteLine(employeeViewModel.LastName);
+
+            //object obj = new EmployeeViewModel();
+            //EmployeeViewModel E = (EmployeeViewModel)obj;
+
+
+
+
+
+
+
+
 
 
         }
