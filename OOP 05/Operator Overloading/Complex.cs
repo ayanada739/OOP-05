@@ -44,6 +44,29 @@ namespace OOP_05.Operator_Overloading
                 Imag = (Left?.Imag ?? 0) - Right?.Imag ?? 0
             };
         }
+
+
+        public static Complex operator ++(Complex C)
+        {
+            return new Complex()
+            {
+
+                Real = (C?.Real ?? 0) + 1,
+                Imag = C?.Imag ?? 0  
+            };
+        }
+
+        public static Complex operator --(Complex C)
+        {
+            return new Complex()
+            {
+
+                Real = (C?.Real ?? 0) + 1,
+                Imag = C?.Imag ?? 0
+            };
+        }
+
+
         #endregion
     }
 }
